@@ -1,0 +1,139 @@
+/*    HEADER  */
+*{
+    box-sizing: border-box;
+    padding:0;
+    margin:0;
+}
+body{
+    background: #080808;
+}
+/*
+.header{
+    height:120px;
+    width:100%;
+}
+.header nav{
+    height:120px;
+    width:100%;
+    display:flex;
+    align-items: center;
+    justify-content: space-around;
+
+}
+.header nav img{
+    height:100%;
+    width:20%;
+}
+.header nav ul{
+    display: flex;
+    width:65%;
+}
+.header nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin:10px 30px;
+}
+.header nav ul li a{
+    color:#fff;
+    text-decoration: none;
+    font-size: 20px;
+    position: relative;
+}
+.header nav ul li a::after{
+    content:'';
+    width:0;
+    height: 3px;
+    background: #ff004f;
+    position: absolute;
+    left:0;
+    bottom:-6px;
+    transition:0.5s;
+}
+.header nav ul li a:hover::after{
+    width:100%;
+
+}
+.header nav a{
+    width:15%;
+    height:50px;
+}
+.header nav svg{
+    color :#fff;
+    height:40px;
+}
+
+.header nav a span{
+    height:20px;
+    width:40px;
+    color:#fff;
+    font-weight: 600;
+    font-size: 20px;
+    margin-left:10px;
+    border-radius: 50%;
+    background: #ff004f;
+    letter-spacing: 3px;
+}
+*/
+nav{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+nav ul{
+    width:70%;
+}
+nav img{
+    width:15%;
+    height:100px;
+}
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin:10px 20px;
+}
+nav ul li a{
+    color:#fff;
+    text-decoration: none;
+    font-size: 20px;
+    position: relative;
+}
+
+nav ul li a::after{
+    content:'';
+    width:0;
+    height: 3px;
+    background: #ff004f;
+    position: absolute;
+    left:0;
+    bottom:-6px;
+    transition:0.5s;
+}
+
+nav ul li a:hover::after{
+    width:100%;
+}
+.header nav p{
+    width:15%;
+}
+.header nav svg{
+    color :#fff;
+    height:40px;
+}
+.header nav p svg{ 
+    text-align: center;
+}
+.header nav p span{
+    text-align: center;
+    height:30px;
+    min-width:20px;
+    background-color:#ff004f;
+    border-radius: 50%;
+    text-align: center;
+    letter-spacing: 3px;
+    font-weight: 900;
+    color:#fff;
+}
+.header nav .fa-bars{
+    display: none;
+}
